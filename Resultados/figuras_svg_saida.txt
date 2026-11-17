@@ -1,0 +1,13 @@
+Warning messages:
+1: package 'zoo' was built under R version 4.4.2 
+2: package 'showtextdb' was built under R version 4.4.2 
+Warning message:
+package 'lmtest' was built under R version 4.4.2 
+There were 50 or more warnings (use warnings() to see the first 50)
+ok
+credito total: sig =  | choque Meta: 0.335 
+ok13
+Warning message:
+package 'showtextdb' was built under R version 4.4.2 
+There were 50 or more warnings (use warnings() to see the first 50)
+ok

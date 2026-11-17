@@ -1,0 +1,46 @@
+Warning messages:
+1: package 'zoo' was built under R version 4.4.2 
+2: package 'lmtest' was built under R version 4.4.2 
+Checagem SGS 20542 x saldo livre da base: max dif. relativa = 0 
+Participacao do direcionado no estoque (ago/2025): 42.5 %
+
+A. Modelo principal (credito livre)
+  T = 174 | raiz max = 0.9978 | Ljung-Box(12) min p = 0.367 (Spread) | LM-ES(6) p = 0.000
+
+B. Credito direcionado no lugar do livre
+  T = 174 | raiz max = 0.9990 | Ljung-Box(12) min p = 0.446 (Cambio) | LM-ES(6) p = 0.000
+  choque de 1 d.p. na meta = 0.293 p.p.
+  Meta -> DirReal          h0 +0.000  h6 +0.036  h12 +0.225  h18 +0.341  h24 +0.365 | sig: n.s.
+  Meta -> Spread           h0 -0.027  h6 +0.248  h12 +0.298  h18 +0.235  h24 +0.144 | sig: (+) 3-23
+  Meta -> Meta             h0 +0.293  h6 +0.427  h12 +0.315  h18 +0.156  h24 +0.035 | sig: (+) 0-15
+  DirReal -> IBC           h0 +0.000  h6 +0.256  h12 +0.212  h18 +0.219  h24 +0.208 | sig: (+) 2-24
+  FEVD: Meta explica 1.3% (12m) e 4.8% (24m) do saldo direcionado; direcionado explica 18.5% do IBC-Br (24m)
+
+C. Modelo conjunto (livre e direcionado)
+  T = 174 | raiz max = 0.9979 | Ljung-Box(12) min p = 0.171 (SaldoReal) | LM-ES(6) p = 0.000
+  choque de 1 d.p. na meta = 0.295 p.p.
+  Meta -> SaldoReal        h0 +0.000  h6 -0.012  h12 -0.093  h18 -0.220  h24 -0.310 | sig: (-) 17-24
+  Meta -> DirReal          h0 +0.000  h6 +0.082  h12 +0.187  h18 +0.230  h24 +0.194 | sig: n.s.
+  Meta -> Spread           h0 -0.028  h6 +0.243  h12 +0.383  h18 +0.321  h24 +0.177 | sig: (+) 4-23
+  Meta -> Meta             h0 +0.295  h6 +0.453  h12 +0.326  h18 +0.126  h24 -0.028 | sig: (+) 0-15
+  FEVD 24m: Meta explica 9.6% do saldo livre e 7.1% do saldo direcionado
+
+  Bootstrap da diferenca ( 5000 replicas)...
+  Livre - Direcionado      h0 +0.000  h6 -0.094  h12 -0.280  h18 -0.449  h24 -0.505 | sig: (-) 17-24
+  Livre - Direcionado (90%) h0 +0.000  h6 -0.094  h12 -0.280  h18 -0.449  h24 -0.505 | sig: (-) 14-24
+
+D. Projecoes locais (1 d.p., IC 95% Newey-West)
+  LP subst.: Meta -> DirReal h0 +0.000  h6 +0.025  h12 -0.084  h18 -0.150  h24 -0.012 | sig: (+) 0
+  LP conj.: Meta -> SaldoReal h0 -0.000  h6 -0.110  h12 -0.157  h18 -0.252  h24 -0.019 | sig: (-) 10-19
+  LP conj.: Meta -> DirReal h0 +0.000  h6 +0.108  h12 +0.099  h18 -0.006  h24 +0.083 | sig: (+) 0
+
+E. Variacoes ( 1000 replicas)
+  Direcionado, p = 3                     T=174  h12 +0.247  h24 +0.355  sig: n.s.           LBmin 0.00
+  Direcionado, p = 6                     T=174  h12 +0.269  h24 +0.351  sig: n.s.           LBmin 0.39
+  Direcionado, sem dummies de eventos    T=174  h12 -0.194  h24 -0.129  sig: n.s.           LBmin 0.47
+  Livre, sem dummies de eventos          T=174  h12 -0.356  h24 -0.783  sig: n.s.           LBmin 0.35
+  Direcionado % PIB                      T=174  h12 +0.054  h24 +0.102  sig: n.s.           LBmin 0.50
+  Livre % PIB                            T=174  h12 +0.003  h24 -0.023  sig: n.s.           LBmin 0.27
+  Direcionado, sem spread                T=174  h12 +0.364  h24 +0.574  sig: n.s.           LBmin 0.28
+
+ok

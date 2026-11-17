@@ -1,0 +1,57 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+Rplots.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Credenciais e chaves
+.env
+.env.*
+*.key
+
+# Arquivos temporarios do Word/Excel
+~$*
+*.tmp
+
+# Arquivos auxiliares do LaTeX (os PDFs finais continuam versionados)
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.stdout
+compilacao.txt
+
+# Arquivos de dados grandes (acima de 50 MB): nenhum encontrado em 12/11/2026
+
+# Fica só no PC (não vai para o repositório público)
+# - artigos e monografias de terceiros (direitos autorais)
+Literatura/
+Referências/
+Refs/
+# - rascunhos, versões antigas e materiais de curso
+Old/
+Word/
+PDFs/
+Apresentacao/Amostras_Estilo/
+# - formulários e documentos administrativos
+Aceite*
+ficha.pdf
+Guia_Revisao_Monografia.pdf
+# - RStudio
+.Rproj.user/

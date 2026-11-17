@@ -1,0 +1,36 @@
+Warning messages:
+1: package 'zoo' was built under R version 4.4.2 
+2: package 'lmtest' was built under R version 4.4.2 
+ Ordenacao Choque Spread12 SpreadSig Saldo24 SaldoSig IBCSig        SaldoIBCSig
+ Principal   0.29     0.38  (+) 4–22   -0.31     n.s.   n.s. (+) 12–24; (−) 1–2
+             Ordenacao Choque Spread12 SpreadSig Saldo24 SaldoSig IBCSig
+ Saldo depois da Selic   0.29     0.39  (+) 4–21   -0.32     n.s.   n.s.
+        SaldoIBCSig
+ (+) 12–24; (−) 1–2
+               Ordenacao Choque Spread12 SpreadSig Saldo24 SaldoSig IBCSig
+ Selic em primeiro lugar   0.29     0.39  (+) 4–21   -0.31     n.s.   n.s.
+        SaldoIBCSig
+ (+) 12–24; (−) 1–2
+             Ordenacao Choque Spread12 SpreadSig Saldo24 SaldoSig IBCSig
+ Câmbio antes da Selic   0.29     0.38  (+) 4–21   -0.29     n.s.   n.s.
+        SaldoIBCSig
+ (+) 12–24; (−) 1–2
+             Ordenacao Choque Spread12 SpreadSig Saldo24 SaldoSig IBCSig
+ Spread antes da Selic   0.29     0.37  (+) 3–21   -0.29     n.s.   n.s.
+        SaldoIBCSig
+ (+) 12–24; (−) 1–2
+
+Tabela final:
+               Ordenacao Choque Spread12 SpreadSig Saldo24 SaldoSig IBCSig
+               Principal   0.29     0.38  (+) 4–22   -0.31     n.s.   n.s.
+   Saldo depois da Selic   0.29     0.39  (+) 4–21   -0.32     n.s.   n.s.
+ Selic em primeiro lugar   0.29     0.39  (+) 4–21   -0.31     n.s.   n.s.
+   Câmbio antes da Selic   0.29     0.38  (+) 4–21   -0.29     n.s.   n.s.
+   Spread antes da Selic   0.29     0.37  (+) 3–21   -0.29     n.s.   n.s.
+        SaldoIBCSig
+ (+) 12–24; (−) 1–2
+ (+) 12–24; (−) 1–2
+ (+) 12–24; (−) 1–2
+ (+) 12–24; (−) 1–2
+ (+) 12–24; (−) 1–2
+ok
